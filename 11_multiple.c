@@ -8,6 +8,6 @@ int main() {
     x=n-b;
     sum=x+11;
     printf("next number is %d\n",sum);
-    printf("size of sum is %d\n",sizeof(sum));
+    printf("size of sum is %d\n",sizeof(sum)); //just testing out sizeof operator.
     return 0;
 }
