@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(){
+void main(){
 int a[50],n,i,j,temp;
 printf("enter total numbers:");
 scanf("%d",&n);
@@ -21,7 +21,5 @@ printf("ascending sorting: ");
 for(i=0;i<n;i++){
     printf("%d\t",a[i]);
 }
-return 0;
-
 }
 
